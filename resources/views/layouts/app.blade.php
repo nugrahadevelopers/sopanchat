@@ -7,7 +7,7 @@
 
     <title>{{ env('APP_NAME') }}</title>
 
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     @livewireStyles
 </head>
 
